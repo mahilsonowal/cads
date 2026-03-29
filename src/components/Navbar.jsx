@@ -57,7 +57,7 @@ const Navbar = () => {
 
   const handleNavClick = (href) => {
     setDrawerOpen(false);
-    
+
     if (href.startsWith('/#')) {
       if (location.pathname !== '/') {
         navigate(href);
@@ -232,7 +232,7 @@ const Navbar = () => {
             onClick={() => setDrawerOpen(false)}
             sx={{ color: '#FFC107' }}
           >
-            <CloseIcon />
+            {/* <CloseIcon /> */}
           </IconButton>
         </Box>
 
