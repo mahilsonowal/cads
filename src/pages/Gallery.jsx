@@ -69,10 +69,10 @@ const Gallery = () => {
         <Container maxWidth="lg">
           {/* Header section with back button */}
           <Box sx={{ display: 'flex', alignItems: 'center', mb: { xs: 4, md: 6 } }}>
-            <IconButton 
+            <IconButton
               onClick={() => navigate('/')}
-              sx={{ 
-                color: '#FFC107', 
+              sx={{
+                color: '#FFC107',
                 mr: 2,
                 border: '1px solid rgba(255, 193, 7, 0.3)',
                 '&:hover': { background: 'rgba(255, 193, 7, 0.1)' }
@@ -97,7 +97,7 @@ const Gallery = () => {
           {/* Masonry Image Gallery */}
           <ImageList variant="masonry" cols={cols} gap={16}>
             {imageFiles.map((item, index) => (
-              <ImageListItem 
+              <ImageListItem
                 key={index}
                 onClick={() => setSelectedImg(`/image/${item}`)}
                 sx={{
@@ -163,7 +163,7 @@ const Gallery = () => {
         </Modal>
       </Box>
       <Footer />
-      <MobileStickyBar />
+
     </>
   );
 };
