@@ -227,7 +227,7 @@ const Navbar = () => {
           },
         }}
       >
-        <Box sx={{ px: 2, pb: 2, display: 'flex', justifyContent: 'flex-end' }}>
+        <Box sx={{ px: 2, pb: 5, display: 'flex', justifyContent: 'flex-end' }}>
           <IconButton
             onClick={() => setDrawerOpen(false)}
             sx={{ color: '#FFC107' }}
