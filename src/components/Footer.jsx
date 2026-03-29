@@ -43,8 +43,10 @@ const Footer = () => {
 
         <Box sx={{ textAlign: 'center' }}>
           <Typography variant="caption" sx={{ color: 'rgba(255,255,255,0.25)', fontSize: '0.75rem' }}>
-            © {year} CADS – Createch Art & Design Studio. All rights reserved. Made with{' '}
-            <FavoriteIcon sx={{ fontSize: 12, color: '#FF6B6B', verticalAlign: 'middle', mx: 0.3 }} /> in Guwahati, Assam
+            © {year} CADS – Createch Art & Design Studio. All rights reserved.
+          </Typography>
+          <Typography variant="caption" sx={{ color: 'rgba(255,255,255,0.25)', fontSize: '0.75rem' }}>
+            To make websites like this contact 9954910574.
           </Typography>
         </Box>
       </Container>
