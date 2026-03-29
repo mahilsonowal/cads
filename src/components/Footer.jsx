@@ -45,6 +45,8 @@ const Footer = () => {
           <Typography variant="caption" sx={{ color: 'rgba(255,255,255,0.25)', fontSize: '0.75rem' }}>
             © {year} CADS – Createch Art & Design Studio. All rights reserved.
           </Typography>
+        </Box>
+        <Box sx={{ textAlign: 'center' }}>
           <Typography variant="caption" sx={{ color: 'rgba(255,255,255,0.25)', fontSize: '0.75rem' }}>
             To make websites like this contact 9954910574.
           </Typography>
