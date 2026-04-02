@@ -9,64 +9,49 @@ import ApartmentIcon from '@mui/icons-material/Apartment';
 import ChairIcon from '@mui/icons-material/Chair';
 import PaletteIcon from '@mui/icons-material/Palette';
 import useScrollAnimation from '../hooks/useScrollAnimation';
+import PrintIcon from '@mui/icons-material/Print';
+import HandymanIcon from '@mui/icons-material/Handyman';
+import SchoolIcon from '@mui/icons-material/School';
+import ArchitectureIcon from '@mui/icons-material/Architecture';
 
 const courses = [
   {
-    title: 'Graphic Design',
-    description: 'Visual communication, branding, typography & digital media design.',
-    icon: BrushIcon,
+    title: 'Painting',
+    description: 'Learn color theory, brush techniques, and creative expression through painting.',
+    icon: PaletteIcon,
     color: '#FF6B6B',
   },
   {
-    title: 'Fashion Design',
-    description: 'Textile innovation, pattern draping, fashion illustration & styling.',
-    icon: CheckroomIcon,
+    title: 'Printmaking',
+    description: 'Explore techniques like screen printing, etching, and block printing.',
+    icon: PrintIcon,
     color: '#4ECDC4',
   },
   {
-    title: 'UI/UX Design',
-    description: 'User research, wireframing, prototyping & interaction design.',
-    icon: DevicesIcon,
+    title: 'Craft',
+    description: 'Hands-on creative work including handmade art, DIY crafts, and materials.',
+    icon: HandymanIcon,
     color: '#45B7D1',
   },
   {
-    title: 'Product Design',
-    description: 'Industrial design, 3D modeling, ergonomics & material innovation.',
-    icon: CategoryIcon,
+    title: 'Sculpture',
+    description: 'Create 3D art using clay, wood, and other sculpting materials.',
+    icon: ArchitectureIcon,
     color: '#96CEB4',
   },
   {
-    title: 'Textile Design',
-    description: 'Fabric printing, weaving techniques, surface design & color theory.',
-    icon: TextureIcon,
+    title: 'School Projects',
+    description: 'Guidance and support for creative and academic school-level projects.',
+    icon: SchoolIcon,
     color: '#FFEAA7',
   },
   {
-    title: 'Animation & Film',
-    description: '2D/3D animation, motion graphics, storytelling & visual effects.',
+    title: 'Video Editing',
+    description: 'Learn editing, transitions, effects, and storytelling using modern tools.',
     icon: MovieIcon,
     color: '#DDA0DD',
   },
-  {
-    title: 'Architecture',
-    description: 'Spatial design, urban planning, sustainable architecture & modeling.',
-    icon: ApartmentIcon,
-    color: '#98D8C8',
-  },
-  {
-    title: 'Interior Design',
-    description: 'Space planning, material selection, lighting design & aesthetics.',
-    icon: ChairIcon,
-    color: '#F7DC6F',
-  },
-  {
-    title: 'Fine Arts',
-    description: 'Painting, sculpture, ceramics, printmaking & mixed media art.',
-    icon: PaletteIcon,
-    color: '#FF8A5C',
-  },
 ];
-
 const Courses = () => {
   const [sectionRef, isVisible] = useScrollAnimation();
 
@@ -127,7 +112,7 @@ const Courses = () => {
               mb: 2,
             }}
           >
-            Design Courses We Offer
+            What we teaches
           </Typography>
           <Typography
             variant="body1"
@@ -138,8 +123,7 @@ const Courses = () => {
               fontSize: { xs: '0.85rem', md: '1.05rem' },
             }}
           >
-            From traditional arts to cutting-edge digital design — explore programs
-            tailored for every creative aspiration.
+            Build your creative skills through structured programs in painting, printmaking, craft, sculpture, and visual media.
           </Typography>
         </Box>
 
