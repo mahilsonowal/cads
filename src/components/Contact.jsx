@@ -9,7 +9,7 @@ const Contact = () => {
   const [sectionRef, isVisible] = useScrollAnimation();
   const phone = '7076700689';
   const whatsappLink = `https://wa.me/91${phone}?text=Hi%20CADS!%20I'm%20interested%20in%20design%20coaching.%20Please%20share%20details.`;
-  const mapSrc = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.123!2d91.123!3d25.567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDM0JzAxLjIiTiA5McKwMDcnMjMuNCJF!5e0!3m2!1sen!2sin!4v1234567890';
+  const mapSrc = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.8736234567!2d91.785073!3d26.1495261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5945d8ca6c85%3A0xbba3995358e883db!2sCADS%20.Createch%20Art%20%26%20Design%20Studio-%20NID%2C%20NIFT%2C%20U%2FCEED%2C%20B.Arch%2C%20NATA%2C%20FINE%20ARTS!5e0!3m2!1sen!2sin!4v1712345678901';
 
   return (
     <Box id="contact" component="section" ref={sectionRef} sx={{ py: { xs: 5, md: 12 }, pb: { xs: 12, md: 12 }, position: 'relative' }}>
