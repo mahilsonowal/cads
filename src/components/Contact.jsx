@@ -9,7 +9,7 @@ const Contact = () => {
   const [sectionRef, isVisible] = useScrollAnimation();
   const phone = '7076700689';
   const whatsappLink = `https://wa.me/91${phone}?text=Hi%20CADS!%20I'm%20interested%20in%20design%20coaching.%20Please%20share%20details.`;
-  const mapSrc = 'https://maps.app.goo.gl/mvY9VAUP7z8ig31K8';
+  const mapSrc = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.123!2d91.123!3d25.567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDM0JzAxLjIiTiA5McKwMDcnMjMuNCJF!5e0!3m2!1sen!2sin!4v1234567890';
 
   return (
     <Box id="contact" component="section" ref={sectionRef} sx={{ py: { xs: 5, md: 12 }, pb: { xs: 12, md: 12 }, position: 'relative' }}>
