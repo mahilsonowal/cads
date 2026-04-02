@@ -9,7 +9,7 @@ const Contact = () => {
   const [sectionRef, isVisible] = useScrollAnimation();
   const phone = '7076700689';
   const whatsappLink = `https://wa.me/91${phone}?text=Hi%20CADS!%20I'm%20interested%20in%20design%20coaching.%20Please%20share%20details.`;
-  const mapSrc = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.5!2d91.7862!3d26.1445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDA4JzQwLjIiTiA5McKwNDcnMTAuMyJF!5e0!3m2!1sen!2sin!4v1';
+  const mapSrc = 'https://maps.app.goo.gl/mvY9VAUP7z8ig31K8';
 
   return (
     <Box id="contact" component="section" ref={sectionRef} sx={{ py: { xs: 5, md: 12 }, pb: { xs: 12, md: 12 }, position: 'relative' }}>
@@ -88,8 +88,10 @@ const Contact = () => {
 
       {/* Floating WhatsApp button */}
       <IconButton href={whatsappLink} target="_blank" aria-label="Chat on WhatsApp"
-        sx={{ position: 'fixed', bottom: { xs: 80, md: 24 }, right: { xs: 16, md: 24 }, width: { xs: 52, md: 60 }, height: { xs: 52, md: 60 }, background: 'linear-gradient(135deg, #25D366, #128C7E)', color: '#FFF', boxShadow: '0 4px 20px rgba(37,211,102,0.4)', zIndex: 1200, animation: 'pulse 2s ease-in-out infinite',
-          '&:hover': { background: 'linear-gradient(135deg, #128C7E, #075E54)', transform: 'scale(1.1)' } }}>
+        sx={{
+          position: 'fixed', bottom: { xs: 80, md: 24 }, right: { xs: 16, md: 24 }, width: { xs: 52, md: 60 }, height: { xs: 52, md: 60 }, background: 'linear-gradient(135deg, #25D366, #128C7E)', color: '#FFF', boxShadow: '0 4px 20px rgba(37,211,102,0.4)', zIndex: 1200, animation: 'pulse 2s ease-in-out infinite',
+          '&:hover': { background: 'linear-gradient(135deg, #128C7E, #075E54)', transform: 'scale(1.1)' }
+        }}>
         <WhatsAppIcon sx={{ fontSize: 32 }} />
       </IconButton>
     </Box>
