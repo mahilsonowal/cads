@@ -28,7 +28,7 @@ const Home = () => {
       <CTA />
       <Contact />
       <Footer />
-      <MobileStickyBar />
+      {/* <MobileStickyBar /> */}
     </>
   );
 };
