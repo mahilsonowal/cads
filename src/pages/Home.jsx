@@ -11,7 +11,7 @@ import StudentOutcomes from '../components/StudentOutcomes';
 import CTA from '../components/CTA';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import MobileStickyBar from '../components/MobileStickyBar';
+// import MobileStickyBar from '../components/MobileStickyBar';
 
 const Home = () => {
   return (
