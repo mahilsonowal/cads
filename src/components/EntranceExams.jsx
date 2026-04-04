@@ -44,7 +44,7 @@ const EntranceExams = () => {
       component="section"
       ref={sectionRef}
       sx={{
-        py: { xs: 5, md: 12 },
+        py: { xs: 3, md: 10 },
         position: 'relative',
         background: 'linear-gradient(180deg, transparent 0%, rgba(255, 193, 7, 0.02) 50%, transparent 100%)',
       }}
@@ -195,12 +195,13 @@ const EntranceExams = () => {
           sx={{
             mt: { xs: 3, md: 6 },
             textAlign: 'center',
+
             opacity: isVisible ? 1 : 0,
             transition: 'opacity 0.8s ease 0.8s',
           }}
         >
           <Chip
-            label="Comprehensive study material & mock tests included"
+            label="Comprehensive study material & mock tests"
             sx={{
               backgroundColor: 'rgba(255, 193, 7, 0.06)',
               border: '1px solid rgba(255, 193, 7, 0.15)',

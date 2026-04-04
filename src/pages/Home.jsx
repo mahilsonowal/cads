@@ -1,7 +1,10 @@
 import { Box } from '@mui/material';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-import Courses from '../components/Courses';
+import CoursesSection from '../components/CoursesSection';
+import SoftwareSection from '../components/SoftwareSection';
+import BrochureSection from '../components/BrochureSection';
+import ArtClassesSection from '../components/ArtClassesSection';
 import EntranceExams from '../components/EntranceExams';
 import Facilities from '../components/Facilities';
 import StudentOutcomes from '../components/StudentOutcomes';
@@ -15,14 +18,17 @@ const Home = () => {
     <>
       <Navbar />
       <Hero />
-      <Courses />
+      <CoursesSection />
+      <SoftwareSection />
+      <BrochureSection />
+      <ArtClassesSection />
       <EntranceExams />
       <Facilities />
       <StudentOutcomes />
       <CTA />
       <Contact />
       <Footer />
-
+      <MobileStickyBar />
     </>
   );
 };

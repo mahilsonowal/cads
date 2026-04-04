@@ -55,7 +55,7 @@ const Facilities = () => {
       component="section"
       ref={sectionRef}
       sx={{
-        py: { xs: 5, md: 12 },
+        py: { xs: 3, md: 1 },
         position: 'relative',
       }}
     >

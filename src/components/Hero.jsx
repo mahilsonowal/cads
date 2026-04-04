@@ -151,7 +151,8 @@ const Hero = () => {
             <Box component="span" sx={{ color: '#FFC107', fontWeight: 600 }}>
               NID, NIFT, UCEED, NATA
             </Box>{' '}
-            & Fine Arts with expert coaching, portfolio guidance, and proven results.
+            &
+            <Box component="span" sx={{ color: '#FFC107', fontWeight: 600 }}> Fine Arts</Box> with expert coaching, portfolio guidance, and proven results.
           </Typography>
 
           {/* CTA Buttons */}
